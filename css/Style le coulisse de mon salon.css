@@ -1,0 +1,44 @@
+* {
+font-family: "Times New Roman";
+}
+body {
+    line-height: 35px;
+    font-size: 20px;
+}
+h1 {
+    color: aqua;
+    text-align: center;
+}
+nav {
+    background-color: azure;
+    color: grey;
+}
+h2 {
+    color: aquamarine;
+}
+aside {
+    color: green;
+}
+a {
+    color: yellow;
+}
+a :hover {
+    text-decoration: -moz-dragtargetzone;
+    color: red;
+}
+p {
+    background-color: beige;
+    text-decoration-color: chocolate;
+}
+
+img:hover{
+    border: cyan 2px dotted;
+}
+button {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+button:focus {
+    background-color: blueviolet;
+}

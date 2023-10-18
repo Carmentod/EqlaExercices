@@ -1,0 +1,112 @@
+#logo {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: green 2px dotted;
+}
+#logo:hover {
+    transition-property: color: ;
+    transition-timing-function: ease;
+    transition-duration: 3s;
+    background-color: forestgreen;
+}
+body {
+    background-color: ivory;
+}
+h1 {
+    text-align: center;
+    background-color: beige;
+    border-bottom: green solid 1px;
+}
+p1 {
+    text-align: center;
+    margin: 0px 3px 0px 10px;
+    padding: 3px;
+}
+#Profil {
+    width: 60px;
+    height: 50px;
+    position: relative;
+    Bottom: 100%;
+    right:20%;
+    border: chocolate 2px solid;
+    z-index: -1;
+}
+div {
+    text-align: center;
+}
+h2 {
+    color: cadetblue;
+}
+#typesdemassages {
+    background-color: aquamarine;
+flex-direction: row;
+}
+#typesdemassages img {
+    width: 50px;
+    height: 60px;
+}
+h3 {
+    color: chocolate;
+}
+footer {
+    background-color: white;
+    bottom: 1px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 50px;
+        height: 50px;
+        background-color: aquamarine;
+        border: green 2px solid;
+    }
+
+    #logo:hover {
+        transition-property: color:;
+        transition-timing-function: ease;
+        transition-duration: 3s;
+        background-color: yellow;
+    }
+
+    body {
+        background-color: beige;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: beige;
+        border-bottom: green solid 1px;
+    }
+
+    p1 {
+        text-align: center;
+        margin: 0px 2px 0px 5px;
+        padding: 1px;
+    }
+
+    #Profil {
+        width: 40px;
+        height: 35px;
+        position: relative;
+        Bottom: 100%;
+        right: 20%;
+        border: chocolate 1px solid;
+        z-index: -1;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    h2 {
+        color: chocolate;
+    }
+
+    #typesdemassages {
+        background-color: aquamarine;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+    }
+}

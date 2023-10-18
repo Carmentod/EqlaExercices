@@ -1,0 +1,14 @@
+#simple td:last-child {
+    text-align: right;
+}
+tfoot {
+    text-align: right;
+    font-weight: bold;
+}
+#simple {
+    border: 1px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}

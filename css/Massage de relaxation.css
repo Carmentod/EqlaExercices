@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+    display: block;
+}
+p {
+    font-size: 18px;
+}
+.section {
+    background-color: chocolate;
+    border: 1px solid grey;
+}
+nav {
+    margin: 20px;
+}
+nav li {
+    margin left: 20px;
+    display: inline;
+    float: left;
+}
+.produits:visited {
+    color: -moz-default-color;
+}
+nav a {
+    color: red;
+}
+aside {
+    color: red;
+    padding: 2%;
+    float: right;
+}
+img:hover{
+    border: cyan 2px dotted;
+}
+img {
+    float: right;
+}
+.produits {
+color: cornsilk;
+}
+#huille:hover {
+    color: chocolate;
+              }
+#huille {
+    transition-property: color;
+    transition-duration: 5s;
+transition-timing-function: ease;
+}
+#creme {
+    transition-property: background-color,color;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+#creme:hover {
+    color: skyblue; background-color: beige;
+}
+/* I gie a class to some links, and ids for two links. I gived the transition property collor and background-color for the ids.*/

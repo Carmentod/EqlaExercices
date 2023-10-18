@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+p {
+    font-size: 18px;
+}
+.section {
+    background-color: yellow;
+    border: 1px solid grey;
+}
+nav {
+    margin: 20px;
+}
+nav a {
+       color: red;
+}
+aside {
+    color: red;
+}
+img:hover{
+    border: cyan 2px dotted;
+}

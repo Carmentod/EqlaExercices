@@ -1,0 +1,16 @@
+nav {
+    background-color: firebrick;
+}
+nav ul {
+    display: flex;
+     flex-direction: row;
+justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav ul li {
+    border: forestgreen solid 2px;
+    background-color: yellow;
+}
+img {
+    width: 400px;
+}
