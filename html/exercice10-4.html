@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<Head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="exercice10.css">
+    <title>Partie 4 - Simple formulaire</title></Head>
+<body>
+<header></header>
+<main><h1>Partie 4 - Simple formulaire</h1>
+    <form action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" aria-required="true" required>
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" name="prenom" aria-required="true" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-required="true" required minlength="6" maxlength="60">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="130">
+        <label for="commentaires">Commentaires:</label>
+        <input type="textarea" id="commentaires" name="commentaires">
+        <label for="newsletter">Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <input type="submit" value="Envoyer" class="envoyer">
+
+    </form>
+</main>
+
+</body>
+</html>
