@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<Head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="exercice10.css">
+    <title>Partie 8 - Simple formulaire</title></Head>
+<body>
+<header></header>
+<main><h1>Partie 8 - Simple formulaire</h1>
+    <form action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" aria-required="true"  required autofocus><br>
+        <label for="prenom">Prenom:</label>
+        <input type="text" id="prenom" name="prenom" aria-required="true" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-required="true" required minlength="6" maxlength="60"><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="130"><br>
+        <label for="commentaires">Commentaires:</label>
+        <textarea id="commen    taires" name="commentaires"></textarea><br>
+        <label class="cours">Cours suivis</label>
+        <label for="html">html</label>
+        <input type="checkbox" class="cours" id="html" name="html[]" checked><br>
+        <label for="css">css</label>
+        <input type="checkbox" class="cours" id="css" name="css[]" checked><br>
+        <label for="php">php</label>
+        <input type="checkbox" class="cours" id="php" name="php[]" checked><br>
+        <fieldset>
+            <legend>Gendre:</legend>
+            <input type="radio" name="sexe" id="homme" value="homme"> <label for="homme">Masculin</label><br>
+            <input type="radio" name="sexe" id="femme" value="femme"> <label for="femme">Feminin</label><br>
+        </fieldset>
+<label for="langue">Sellectionez votre langue maternelle</label>
+        <select id="langue" name="langue">
+            <option francais>Francais</option>
+            <option anglais>Anglais</option>
+            <option roumain>Roumain</option>
+            <option allemand>Allemand</option>
+            <option italien>Italien</option>
+</select>
+
+        <label for="newsletter">Newsletter</label>
+        <input type="checkbox" id="newsletter" name="newsletter"><br>
+        <input type="submit" value="Envoyer" class="envoyer">
+        <input type="reset" value="Effacer">
+    </form>
+</main>
+</body>
+</html>
