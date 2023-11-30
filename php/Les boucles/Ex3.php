@@ -7,7 +7,7 @@ do {
     $compteur ++;
 }
 /*if ($nbr > 100) {
-    echo "Le numero depasse 100";
+     echo "Le numero depasse 100";
 }*/
 while ($nbr!=$nbraleatoir);
 echo "Vous avez trouve la bonne reponse apres" . $compteur . "tentatives.";
