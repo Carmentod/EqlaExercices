@@ -3,7 +3,7 @@ echo "Entrez un numero";
 $nbr=fgets(STDIN);
 $somme=0;
 while ($nbr >= 0) {
-$somme = $somme+$nbr;
+$somme = $somme+$n  br;
 echo "Entrez un autre numero";
 $nbr=fgets(STDIN);
 }
